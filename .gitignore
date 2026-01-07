@@ -1,0 +1,29 @@
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== BACKEND (.NET) =====
+CatalogApi/bin/
+CatalogApi/**/bin/
+#**/Properties/launchSettings.json
+
+# ===== FRONTEND (React + Vite) =====
+catalog-dashboard/**/node_modules/
+catalog-dashboard/**/dist/
+catalog-dashboard/**/build/
+
+# .env
+catalog-dashboard/**/.env
+catalog-dashboard/**/.env.*
+!catalog-dashboard/**/.env.example
