@@ -25,7 +25,7 @@ Incluye **backend en .NET 8.0**.
 
 
 ## 📂 Estructura del proyecto
-
+```text
 /CatalogProduct
 	|- CatalogApi/ # API .NET (Clean Architecture)
 		|- Controllers/
@@ -37,7 +37,7 @@ Incluye **backend en .NET 8.0**.
 	|- catalog-dashboard/ # Cliente en React
 		|- src/ # Componentes React
 	|- README.md
-	
+```
  ---
  
  
@@ -55,10 +55,12 @@ Incluye **backend en .NET 8.0**.
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/edwsilme/CatalogProduct.git
+   ```
 
 2. Cambiar a Rama develop:
    ```bash
-   git switch develop   
+   git switch develop
+   ```
    
 3.  Ejecuta el script SQLQuery_CreateTable_ProductCatalogBD.sql en tu instancia de SQL Server para crear las tablas y datos iniciales.
 
@@ -69,10 +71,12 @@ Incluye **backend en .NET 8.0**.
 5. Dirijirse a la carpeta CatalogApi
    ```bash
    cd CatalogProduct/CatalogApi
+   ```
 
 6. Ejecutar la API:
    ```bash
    dotnet run --launch-profile https
+   ```
    
    
 ## Frontend (React + Vite)
@@ -80,14 +84,17 @@ Incluye **backend en .NET 8.0**.
 1. Dirijirse a la carpeta ManagerApi:
    ```bash
    cd catalog-dashboard
+   ```
 
 2. Instalar dependencias:
    ```bash
    npm install
+   ```
 
 3. Ejecutar desarrollo:
    ```bash
    npm run dev
+   ```
 
 ---
 
